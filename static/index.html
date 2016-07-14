@@ -26,15 +26,16 @@ limitations under the License.
 <body>
     <h1>Welcome to the deep ocean secrets</h1>
 
-    <form>
-        <form action="javascript:fetchMessage();">
+    <form id="image_form">
+        <form>
         What do you want to know?:<br>
-        <input type="text" id="path"><br>
+        <input type="text" id="date1"><br>
+        <input type="text" id="date2"><br>
     </form>
 
-    <button onclick="fetchMessage()">Check!</button>
+    <button onclick="change()">Check!</button>
 
     <p id="test_box">Click on the button to fetch the message.</p>
-
+    <img src="static/animated.gif" alt="HTML5 Icon" id="image_box"> 
 </body>
 </html>
